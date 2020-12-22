@@ -15,6 +15,6 @@
  
  ## compact3_residual.py
  
- Script che confronta fra loro due file prodotti da teqc (provenienti da ricevitori diversi).
+ Script che confronta fra loro due file prodotti da teqc [provenienti da ricevitori diversi].
  Nello script viene innanzitutto compiuta la differenza tra le due quantità assicurandosi che siano riferite allo stesso istante temporale.
  Opzionalmente si può sottrarre la media delle differenze ottenute e plottare la quantità risultante

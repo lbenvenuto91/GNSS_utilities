@@ -161,17 +161,23 @@ def main():
 
 
 
-    ismrfile='{}/files/ismr/PRU1305C.11_.ismr'.format(script_path)
-    sat='G02'
+    ismrfile='{}/files/ismr/PRU1305tot.11_.ismr'.format(script_path) #path/to/file
+    sat='G31'
 
-    index=33
+    index=7
 
     values=readismr(ismrfile,SVID(sat),index)
-
+    thermCorr=None
     if index==8 or index==33:
         thermCorr=int(input('Apply Thermal Correction to S4?\nyes: 1\nno: 0\n>>> '))
         if thermCorr==1:
-            values=thermalNoiseCorr(values,ismrfile,sat,index)
+            
+            sep_plot=bool(input('Type yes if you want the correction in the same picture of S4, push enter otherwise\n>>> '))
+            #la funzione bool valuta False qualsiasi stringa vuota
+            if sep_plot:
+                correzione=thermalNoiseCorr(values,ismrfile,sat,index)
+            else:
+                values=thermalNoiseCorr(values,ismrfile,sat,index)
         elif thermCorr==0:
             pass
         else:
@@ -185,16 +191,28 @@ def main():
     fig = plt.figure()
     ax1 = fig.add_subplot(111)
 
-    plt.plot(asse_x,asse_y)
+    plt.plot(asse_x,asse_y,label=ismr_index[index])
     import matplotlib.dates as mdates
     ax1.xaxis.set_major_formatter(mdates.DateFormatter('%H:%M'))
-
+    
     # rotate and align the tick labels so they look better
     fig.autofmt_xdate()
     plt.xlabel('time')
-    plt.ylabel('{}'.format(ismr_index[index]))
+    if thermCorr==1:
+        if sep_plot:
+            asse_xc=[correzione[i][0] for i in range(len(correzione))]
+            asse_yc=[correzione[i][1] for i in range(len(correzione))]
+            plt.plot(asse_xc,asse_yc,label='S4 Thermal noise corrected [-]')
+            plt.title('sat {}'.format(sat))
+            plt.legend()
+            plt.show()
+            sys.exit()
+        else:
+            plt.ylabel('S4 Thermal noise corrected [-]')
+    else:
+        plt.ylabel(ismr_index[index])
     plt.title('sat {}'.format(sat))
-
+    #plt.ylim(0,0.5)
     plt.show()
 
 if __name__ == "__main__":

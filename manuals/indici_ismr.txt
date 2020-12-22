@@ -1,45 +1,45 @@
 1: WN, GPS Week Number
-2: TOW, GPS Time of Week (seconds)
+2: TOW, GPS Time of Week [s]
 3: SVID
 4: Value of the RxState field of the ReceiverStatus SBF block
-5: Azimuth (degrees)
-6: Elevation (degrees)
-7: Average L1 C/N0 over the last minute (dB-Hz)
-8: Total S4 on L1 (dimensionless)
-9: Correction to total S4 on L1 (thermal noise component only) (dimensionless)
-10: Phi01 on L1,  1-second phase sigma (radians)
-11: Phi03 on L1,  3-second phase sigma (radians)
-12: Phi10 on L1, 10-second phase sigma (radians)
-13: Phi30 on L1, 30-second phase sigma (radians)
-14: Phi60 on L1, 60-second phase sigma (radians)
-15: AvgCCD on L1, average of code/carrier divergence (meters)
-16: SigmaCCD on L1, standard deviation of code/carrier divergence (meters)
-17: TEC at TOW - 45 seconds (TECU)
-18: dTEC from TOW - 60s to TOW - 45s (TECU)
-19: TEC at TOW - 30 seconds (TECU)
-20: dTEC from TOW - 45s to TOW - 30s (TECU)
-21: TEC at TOW - 15 seconds (TECU)
-22: dTEC from TOW - 30s to TOW - 15s (TECU)
-23: TEC at TOW (TECU)
-24: dTEC from TOW - 15s to TOW (TECU)
-25: L1 lock time (seconds)
+5: Azimuth [degrees]
+6: Elevation [degrees]
+7: Average L1 C/N0 over the last minute [dB-Hz]
+8: Total S4 on L1 [-]
+9: Correction to total S4 on L1 [thermal noise component only] [-]
+10: Phi01 on L1,  1-second phase sigma [radians]
+11: Phi03 on L1,  3-second phase sigma [radians]
+12: Phi10 on L1, 10-second phase sigma [radians]
+13: Phi30 on L1, 30-second phase sigma [radians]
+14: Phi60 on L1, 60-second phase sigma [radians]
+15: AvgCCD on L1, average of code/carrier divergence [m]
+16: SigmaCCD on L1, standard deviation of code/carrier divergence [m]
+17: TEC at TOW - 45 seconds [TECU]
+18: dTEC from TOW - 60s to TOW - 45s [TECU]
+19: TEC at TOW - 30 seconds [TECU]
+20: dTEC from TOW - 45s to TOW - 30s [TECU]
+21: TEC at TOW - 15 seconds [TECU]
+22: dTEC from TOW - 30s to TOW - 15s [TECU]
+23: TEC at TOW [TECU]
+24: dTEC from TOW - 15s to TOW [TECU]
+25: L1 lock time [s]
 26: Reserved, currently set to 0
-27: L2 lock time (seconds)
-28: Averaged C/N0 of second frequency used for the TEC computation (dB-Hz)
-29: SI Index on L1 (dimensionless)
-30: SI Index on L1 (dB)
-31: p on L1, spectral slope of detrended phase in the 0.1 to 25Hz range (dimensionless)
-32: Average C/N0 on L2 (GPS/GLO) or E5a (GAL) over the last minute (dB-Hz)
-33: Total S4 on L2 (GPS/GLO) or E5a (GAL) (dimensionless)
-34: Correction to total S4 on L2 (GPS/GLO) or E5a (GAL) (thermal noise component only) (dimensionless)
-35: Phi01 on L2 (GPS/GLO) or E5a (GAL),  1-second phase sigma (radians)
-36: Phi03 on L2 (GPS/GLO) or E5a (GAL),  3-second phase sigma (radians)
-37: Phi10 on L2 (GPS/GLO) or E5a (GAL), 10-second phase sigma (radians)
-38: Phi30 on L2 (GPS/GLO) or E5a (GAL), 30-second phase sigma (radians)
-39: Phi60 on L2 (GPS/GLO) or E5a (GAL), 60-second phase sigma (radians)
-40: AvgCCD on L2 (GPS/GLO) or E5a (GAL), average of code/carrier divergence (meters)
-41: SigmaCCD on L2 (GPS/GLO) or E5a (GAL), standard deviation of code/carrier divergence (meters)
-42: Lock time of L2 (GPS/GLO) or E5a (GAL) (seconds)
-43: SI Index on L2 (GPS/GLO) or E5a (GAL) (dimensionless)
-44: SI Index on L2 (GPS/GLO) or E5a (GAL), numerator only (dB)
-45: p on L2 (GPS/GLO) or E5a (GAL), phase spectral slope in the 0.1 to 25Hz range (dimensionless)
+27: L2 lock time [s]
+28: Averaged C/N0 of second frequency used for the TEC computation [dB-Hz]
+29: SI Index on L1 [-]
+30: SI Index on L1 [dB]
+31: p on L1, spectral slope of detrended phase in the 0.1 to 25Hz range [-]
+32: Average C/N0 on L2 [GPS/GLO] or E5a [GAL] over the last minute [dB-Hz]
+33: Total S4 on L2 [GPS/GLO] or E5a [GAL] [-]
+34: Correction to total S4 on L2 [GPS/GLO] or E5a [GAL] [thermal noise component only] [-]
+35: Phi01 on L2 [GPS/GLO] or E5a [GAL],  1-second phase sigma [radians]
+36: Phi03 on L2 [GPS/GLO] or E5a [GAL],  3-second phase sigma [radians]
+37: Phi10 on L2 [GPS/GLO] or E5a [GAL], 10-second phase sigma [radians]
+38: Phi30 on L2 [GPS/GLO] or E5a [GAL], 30-second phase sigma [radians]
+39: Phi60 on L2 [GPS/GLO] or E5a [GAL], 60-second phase sigma [radians]
+40: AvgCCD on L2 [GPS/GLO] or E5a [GAL], average of code/carrier divergence [m]
+41: SigmaCCD on L2 [GPS/GLO] or E5a [GAL], standard deviation of code/carrier divergence [m]
+42: Lock time of L2 [GPS/GLO] or E5a [GAL] [s]
+43: SI Index on L2 [GPS/GLO] or E5a [GAL] [-]
+44: SI Index on L2 [GPS/GLO] or E5a [GAL], numerator only [dB]
+45: p on L2 [GPS/GLO] or E5a [GAL], phase spectral slope in the 0.1 to 25Hz range [-]

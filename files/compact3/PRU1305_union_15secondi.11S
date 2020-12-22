@@ -45,21 +45,21 @@ Clk|                                                                        |Clk
 2011 Nov  1                                                          2011 Nov  1
 
 *********************
-QC of RINEX  file(s) : .\RINEX_PRU1_CALIBA\dati15secondi_nuovo\PRU1305_union_15secondi.11o
-input RnxNAV file(s) : .\RINEX_PRU1_CALIBA\dati15secondi_nuovo\ppte3051.11n
+QC of RINEX  file[s] : .\RINEX_PRU1_CALIBA\dati15secondi_nuovo\PRU1305_union_15secondi.11o
+input RnxNAV file[s] : .\RINEX_PRU1_CALIBA\dati15secondi_nuovo\ppte3051.11n
 *********************
 
-4-character ID          : SEPT (# = Unknown)
-Receiver type           : SEPT POLARXS (# = 2003891) (fw = 2.2-tst110427r31349)
-Antenna type            : Unknown (# = Unknown)
+4-character ID          : SEPT [# = Unknown]
+Receiver type           : SEPT POLARXS [# = 2003891] [fw = 2.2-tst110427r31349]
+Antenna type            : Unknown [# = Unknown]
 
 Time of start of window : 2011 Nov  1  02:00:00.000
 Time of  end  of window : 2011 Nov  1  05:59:45.000
-Time line window length : 4.00 hour(s), ticked every 1.0 hour(s)
+Time line window length : 4.00 hour[s], ticked every 1.0 hour[s]
  mean antenna; # of pos :     83
-  antenna WGS 84 (xyz)  : 3687625.0260 -4620837.4417 -2386904.5776 (m)
-  antenna WGS 84 (geo)  : S  22 deg 07' 12.20"  W  51 deg 24' 31.11"
-  antenna WGS 84 (geo)  :  -22.120056 deg   308.591358 deg (=  -51.408642 deg)
+  antenna WGS 84 [xyz]  : 3687625.0260 -4620837.4417 -2386904.5776 [m]
+  antenna WGS 84 [geo]  : S  22 deg 07' 12.20"  W  51 deg 24' 31.11"
+  antenna WGS 84 [geo]  :  -22.120056 deg   308.591358 deg [=  -51.408642 deg]
           WGS 84 height : 454.1243 m
 |qc - header| position  :  6375580.7937 m
 Observation interval    : 15.0000 seconds
@@ -78,26 +78,26 @@ NAVSTAR GPS SVs w/o NAV :
 Rx tracking capability  : 70 SVs
 Poss. # of obs epochs   :    960
 Epochs w/ observations  :    960
-Epochs repeated         :      0  (0.00%)
+Epochs repeated         :      0  [0.00%]
 Possible obs >   0.0 deg:  10137
 Possible obs >  10.0 deg:   8075
 Complete obs >  10.0 deg:   8053
  Deleted obs >  10.0 deg:     11
   Masked obs <  10.0 deg:   7082
-Obs w/ SV duplication   :      0  (within non-repeated epochs)
+Obs w/ SV duplication   :      0  [within non-repeated epochs]
 Moving average MP12     : 0.325778 m
 Moving average MP21     : 0.472904 m
 Points in MP moving avg : 50
-Mean S1                 : 7.16 (sd=0.76 n=18008)
-Mean S2                 : 5.69 (sd=1.23 n=14962)
+Mean S1                 : 7.16 [sd=0.76 n=18008]
+Mean S2                 : 5.69 [sd=1.23 n=14962]
 No. of Rx clock offsets : 0
 Total Rx clock drift    :  0.000000 ms
 Rate of Rx clock drift  :  0.000 ms/hr
-Avg time between resets : Inf minute(s)
+Avg time between resets : Inf minute[s]
 Freq no. and timecode   : 2 11622 00003c
-Report gap > than       : 10.00 minute(s)
+Report gap > than       : 10.00 minute[s]
 epochs w/ msec clk slip : 0
-other msec mp events    : 0 (: 71)   {expect ~= 1:50}
+other msec mp events    : 0 [: 71]   {expect ~= 1:50}
 IOD signifying a slip   : >400.0 cm/minute
 IOD slips <  10.0 deg*  :     17
 IOD slips >  10.0 deg   :     22
@@ -113,7 +113,7 @@ SUM 11 11  1 02:00 11 11  1 05:59 4.000  15   8075   8053 100  0.33  0.47    366
 
 Processing parameters are:
 Receiver tracking capability       : 70 SVs
-Maximum ionospheric rate (L1)      : 400.00 cm/min
+Maximum ionospheric rate [L1]      : 400.00 cm/min
 Report data gap greater than       : 10.00 min
 Expected rms of MP12 multipath     : 65.00 cm
 Expected rms of MP21 multipath     : 65.00 cm
@@ -122,7 +122,7 @@ Multipath slip sigma threshold     : 4.00 sigma
 Points in MP moving averages       : 50
 Minimum signal to noise for L1     : 4
 Minimum signal to noise for L2     : 4
-Elevation mask (cutoff)            : 10.00 degrees
+Elevation mask [cutoff]            : 10.00 degrees
 Elevation comparison threshold     : 25.00 degrees
 SVs w/ code data for position try  : 6
 Width of ASCII summary plot        : 72
@@ -133,11 +133,11 @@ Do multipath observables           : yes
 Do 1-ms receiver clock slips       : yes
 Tolerance for 1-ms clock slips     : 1.00e-002 ms
 Do receiver LLI slips              : yes
-Do plot file(s)                    : yes
+Do plot file[s]                    : yes
 
 Observations start   : 2011 Nov  1 02:00:00.000
 Observations  end    : 2011 Nov  1 05:59:45.000
-Observation interval : 15.0000 second(s)
+Observation interval : 15.0000 second[s]
 
  SV  #+hor <ele> #+mask <ele> #reprt #compl    L1     L2     P1     P2     C1     C2
 --- ------ ----- ------ ----- ------ ------ ------ ------ ------ ------ ------ ------
@@ -175,11 +175,11 @@ R19*     0  0.00      0  0.00    587    501    554    532      0      0    556  
 R04*     0  0.00      0  0.00    679    674    677    674      0      0    679    677
 R09*     0  0.00      0  0.00    539    539    539    539      0      0    539    539
 R05*     0  0.00      0  0.00    304    269    284    289      0      0    284    289
-   * = SV with no NAV info (or not being used)
+   * = SV with no NAV info [or not being used]
 
-Obs below mask ( 10.00 deg)   :  11393
+Obs below mask [ 10.00 deg]   :  11393
 Obs reported w/ code | phase  :  19457
-Obs deleted (any reason)      :   1729
+Obs deleted [any reason]      :   1729
 Obs complete                  :  17728
 
                                 |  G  |  R  |  S  |
@@ -198,7 +198,7 @@ No. of Rx clock offsets : 0
 Total Rx clock drift    :  0.000000 ms
 Rate of Rx clock drift  :  0.000000 ms/hr
 
-elev (deg)  tot slps <ION rms, m>        5=%       1|m      15=%       2|m
+elev [deg]  tot slps <ION rms, m>        5=%       1|m      15=%       2|m
  85 - 90      0    0   0.000000  
  80 - 85    189    0   0.000000  
  75 - 80    153    0   0.000000  
@@ -219,7 +219,7 @@ elev (deg)  tot slps <ION rms, m>        5=%       1|m      15=%       2|m
   0 -  5    346    5   0.000000  ==
     <  0    194    1   0.000000  =
 
-MP12 RMS summary (per SV):
+MP12 RMS summary [per SV]:
                                       slips  L1 rx  L2 rx  slips  L1 rx  L2 rx
  SV  obs>10  # del <elev> MP12 rms [m]  < 25   < 25   < 25   > 25   > 25   > 25
 G02    221      0   21.34  0.294993      1      0      0      0      0      0
@@ -251,7 +251,7 @@ total mean elevation : 38.07 degrees
 # Rvr L1 slips > 25  :      0
 # Rvr L2 slips > 25  :      0
 
-elev (deg)  tot slps <MP12 rms, m>        5=%       1|m      15=%       2|m
+elev [deg]  tot slps <MP12 rms, m>        5=%       1|m      15=%       2|m
  85 - 90      0    0   0.000000  
  80 - 85    189    0   0.093932  ||
  75 - 80    153    0   0.095539  ||
@@ -272,7 +272,7 @@ elev (deg)  tot slps <MP12 rms, m>        5=%       1|m      15=%       2|m
   0 -  5    346    7   0.707274  ####||||||||||
     <  0    194    1   0.524124  #|||||||||
 
-MP21 RMS summary (per SV):
+MP21 RMS summary [per SV]:
                                       slips  L1 rx  L2 rx  slips  L1 rx  L2 rx
  SV  obs>10  # del <elev> MP21 rms [m]  < 25   < 25   < 25   > 25   > 25   > 25
 G02    221      0   21.34  0.475667      1      0      0      0      0      0
@@ -304,7 +304,7 @@ total mean elevation : 38.07 degrees
 # Rvr L1 slips > 25  :      0
 # Rvr L2 slips > 25  :      0
 
-elev (deg)  tot slps <MP21 rms, m>        5=%       1|m      15=%       2|m
+elev [deg]  tot slps <MP21 rms, m>        5=%       1|m      15=%       2|m
  85 - 90      0    0   0.000000  
  80 - 85    189    0   0.153855  |||
  75 - 80    153    0   0.204543  ||||
@@ -325,8 +325,8 @@ elev (deg)  tot slps <MP21 rms, m>        5=%       1|m      15=%       2|m
   0 -  5    346    7   1.527793  ####|||||||||||||||||||||||||||
     <  0    194    1   1.016208  #|||||||||||||||||||
 
-S/N L1 summary (per elevation bin):
-elev (deg)  tot SN1 sig    mean                    0|5                 1|0
+S/N L1 summary [per elevation bin]:
+elev [deg]  tot SN1 sig    mean                    0|5                 1|0
  85 - 90      0   0.000    0.000 
  80 - 85    189   0.783    8.190 ###||||||||||||||||||||||||||||||
  75 - 80    153   0.840    8.359 ###||||||||||||||||||||||||||||||
@@ -347,8 +347,8 @@ elev (deg)  tot SN1 sig    mean                    0|5                 1|0
   0 -  5    415   0.653    5.386 ###|||||||||||||||||||
     <  0    195   0.756    6.026 ###|||||||||||||||||||||
 
-S/N L2 summary (per elevation bin):
-elev (deg)  tot SN2 sig    mean                    0|5                 1|0
+S/N L2 summary [per elevation bin]:
+elev [deg]  tot SN2 sig    mean                    0|5                 1|0
  85 - 90      0   0.000    0.000 
  80 - 85    189   0.683    6.407 ###|||||||||||||||||||||||
  75 - 80    153   0.704    6.680 ###||||||||||||||||||||||||
