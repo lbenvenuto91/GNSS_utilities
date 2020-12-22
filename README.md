@@ -13,7 +13,7 @@
  L'output di teqc però è verboso e non visivo. In particolare il comando teqc +qc +plot file_rinex genera una serie di file di testo in formato compact3.
  Lo script compact3_teqc.py legge e plotta in automatico i file di testo prodotti da teqc. I plot vengono fatti satellite per satellite
  
- ## compact3_residual.py
+ ## compact3_residuals.py
  
  Script che confronta fra loro due file prodotti da teqc [provenienti da ricevitori diversi].
  Nello script viene innanzitutto compiuta la differenza tra le due quantità assicurandosi che siano riferite allo stesso istante temporale.
@@ -28,6 +28,6 @@
   - generalizzare la funzione in modo che legga tutti i rinex v3 (controllare che non accada già)
   - scrivere una funzione per leggere anche i rinex v2
   
-   ## Rinex_Parser.py
+   ## rinex_plots.py
    
   Lo script contiene una serie di funzioni per leggere e plottare i rinex salvati su un db sqlite grazie allo script Rinex_PARSER.py
