@@ -18,3 +18,16 @@
  Script che confronta fra loro due file prodotti da teqc [provenienti da ricevitori diversi].
  Nello script viene innanzitutto compiuta la differenza tra le due quantità assicurandosi che siano riferite allo stesso istante temporale.
  Opzionalmente si può sottrarre la media delle differenze ottenute e plottare la quantità risultante
+ 
+  ## Rinex_Parser.py
+  
+  Script per leggere file rinex v3 e salvare le osservabili in un database sqlite.
+  Lo script è stato originarimente pensato per leggere i rinex registrati dalle applicazioni Android (ad es Geo++ Rinex Logger). E' ancora in una fase beta e va migliorato.
+  Possibili migliorie:
+  - usare Dataframe (pandas) anzichè sqlite
+  - generalizzare la funzione in modo che legga tutti i rinex v3 (controllare che non accada già)
+  - scrivere una funzione per leggere anche i rinex v2
+  
+   ## Rinex_Parser.py
+   
+  Lo script contiene una serie di funzioni per leggere e plottare i rinex salvati su un db sqlite grazie allo script Rinex_PARSER.py
